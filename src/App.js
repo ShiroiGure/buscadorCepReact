@@ -4,20 +4,20 @@ import './styles.css'
 function App() {
   return (
     <div className="container">
-      <h1 classname="title">Buscador CEP</h1>
+      <h1 className="title">Buscador CEP</h1>
 
-      <div classname="containerInput">
+      <div className="containerInput">
         <input 
         type="text"
         placeholder="Digite seu CEP"
         />
 
-      <button classname="buttonSearch">
+      <button className="buttonSearch">
         <FiSearch size={26} color="#FFF"/>
       </button>
       </div> 
 
-      <main classname="main">
+      <main className="main">
         <h2>CEP: 00000-000</h2>
 
         <span>Rua Teste Alguma</span>
