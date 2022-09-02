@@ -10,7 +10,6 @@ function App() {
   const [cep, setCep] = useState({});
 
   async function handleSearch(){
-    // 02850007/json/
 
     if(input === ''){
       alert("Preencha algum CEP")
@@ -19,7 +18,7 @@ function App() {
 
     try{
        const response = await api.get(`${input}/json`);
-       setCep(response.data)
+       setCep(response)
        setInput('')
 
     }catch{
