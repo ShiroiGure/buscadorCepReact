@@ -42,13 +42,13 @@ function App() {
         onChange={(e) => setInput(e.target.value)}
         />
 
-      <button className="buttonSearch" onClick={handleSearch}>
-        <FiSearch size={26} color="#FFF"/>
-      </button>
+        <button className="buttonSearch" onClick={handleSearch}>
+          <FiSearch size={26} color="#FFF"/>
+        </button>
       </div> 
 
 
-      {Object.keys(cep).lenght > 0 && (
+      {Object.keys(cep).length > 0 && (
         <main className="main">
           <h2>CEP: {cep.cep}</h2>
 
