@@ -2,7 +2,7 @@
 
 Treinando o Desenvolvimento de Front-End com ReactJS
 
-## Criando uma aplicação de busca de CEP com ReactJSs
+## Criando uma aplicação de busca de CEP com ReactJS
 
 Uma página unica que irá mostrar as infromações de CEP
 
